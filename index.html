@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="logo">
+                <img class="image" src="https://ideogram.ai/assets/image/lossless/response/U2JAqJRiS3uNSXrSCKd2TQ" alt="logo">
+            </div>
+            <div class="home"  onclick="location.href='index.html'">Home</div>
+            <div class="delivery-address" onclick="location.href='address.html'">
+                <i class="fa-solid fa-location-dot"></i> Delivery Address
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search Medicines">
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-shopping-cart"></i>
+            </div>
+            <div class="login">
+                <button onclick="location.href='login.html'">Login <i class="fa-regular fa-user"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="medicine-sections">
+        <a href="allopathy.html">Allopathy</a>
+        <a href="Homeopathy.html">Homeopathy</a>
+        <a href="ayurvedic.html">Ayurveda</a>
+        <a href="essentials.html">Home Essentials</a>
+        <a href="healthdevices.html">Health Devices</a>
+    </div>
+
+    <div class="bgimg">
+        <div class="imgg1">
+            <img id="img1" src="https://images.apollo247.in/images/ui_revamp_searchBanner1.svg" alt="Banner 1">
+        </div>
+        <div class="text">Buy Medicines and Essentials</div>
+        <div class="imgg2">
+            <img id="img2" src="https://images.apollo247.in/images/ui_revamp_searchBanner2.svg" alt="Banner 2">
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- Your content here -->
+         <div class="facilities">
+            <div class="option findstore">
+                <img class="ImG" src="https://images.apollo247.in/pub/media/store_icon_image.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+<p> Pharmacy near me</p>
+            </div>
+            <div class="option uploaddocs">
+                <img class="ImG" src="https://images.apollo247.in/images/ui_revamp_orderviaprescription.svg?tr=q-80,w-50,dpr-2,c-at_max" alt="">
+                <p>Get 15% off on Medicines</p>
+            </div>
+            <div class="option prebook">
+                <img class="ImG" src="https://images.apollo247.in/images/ui_revamp_hospitalVisit.svg?tr=q-80,w-50,dpr-2,c-at_max" alt="">
+                <p>Hospital Visit</p>
+            </div>
+            <div class="option videoconsult">
+                <img class="ImG" src="https://images.apollo247.in/images/ui_revamp_video_consult.svg?tr=q-80,w-50,dpr-2,c-at_max" alt="">
+                <p>Video Consult</p>
+            </div>
+            <div class="option labtest">
+                <img class="ImG" src="https://images.apollo247.in/images/ui_revamp_labtest.svg?tr=q-80,w-50,dpr-2,c-at_max" alt="">
+                <p>Lab Tests</p>
+            </div>
+         </div>
+       
+         <!-- carousel -->
+         <div class="container">
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-img-1"></div>
+                    <div id="slider-img-2"></div>
+                    <div id="slider-img-3"></div>
+                    <div id="slider-img-4"></div>
+                </div>
+            </div>
+            <div class="button-holder">
+                <a href="#slider-img-1" class="button"></a>
+                <a href="#slider-img-2" class="button"></a>
+                <a href="#slider-img-3" class="button"></a>
+                <a href="#slider-img-4" class="button"></a>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <p id="brohead">Browse by Health Conditions</p>
+            <div class="healthconditions">
+                <div class="Ae Diabetes">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/d/i/diabetic_1.png?tr=q-60,f-webp,w-100,dpr-2,c-at_max" alt="">
+                    <p>Diabetes Care</p>
+                </div>
+                <div class="Ae cardiac">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/c/a/cardio_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Cardiac Care</p>
+                </div>
+                <div class="Ae stomach">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/g/r/group-10_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Stomach Care</p>
+                </div>
+                <div class="Ae pain">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/p/a/pain_relief_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Pain Relief</p>
+                </div>
+            </div>
+            <div class="Health2">
+                <div class="Ae Liver">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/l/i/liver_care_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Liver Care</p>
+                </div>
+                <div class="Ae oral">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/g/r/group-5_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Oral Care</p>
+                </div>
+                <div class="Ae respiratory">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/g/r/group-68_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Respiratory</p>
+                </div>
+                <div class="Ae Elderly">
+                    <img src="https://images.apollo247.in/pub/media/healtharea/247images/e/l/elderly_care_1.png?tr=q-80,f-webp,w-50,dpr-2,c-at_max" alt="">
+                    <p>Elderly Care</p>
+                </div>
+            </div>
+        </div>
+        <div class="himalayad">
+            
+                <img src="https://pushmycart.com/cdn/shop/collections/1B74E614-B0CD-40A8-802A-FF9E6C0A58B2_1.png?v=1666013373" alt="">
+            
+        </div>
+        <div class="image3">
+            <div id="first">
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1710162852_Omnigel_Mini_banner_webhhhh.jpg" alt="">
+            </div>
+            <div id="second">
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1709289702_Hansaplast_mini_web.jpg" alt="">
+            </div>
+            <div id="third">
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1710162640_Ahaglow_Mini_banner_webhbh.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- footer section starts here -->
+    <footer>
+        <div class="containers">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>BioPulse.com brings to you an online platform, which can be accessed for all your health needs. We are trying to make healthcare a hassle-free experience for you. Get your allopathic, ayurvedic, homeopathic medicines, vitamins & nutrition supplements and other health-related products delivered at home. Lab tests? That too in the comfort of your home. Doctor consult? Yes, we got that covered too.</p>
+                <ul class="sci">
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class=" sec quicklinks">
+                <h2>Medicines</h2>
+                <ul>
+                    <li><a href="">Allopathy</a></li>
+                    <li><a href="">Homeopathy</a></li>
+                    <li><a href="">Ayurveda</a></li>
+                    <li><a href="">Health Devices</a></li>
+                    <li><a href="">Home Essentials</a></li>
+                </ul>
+            </div>
+            <div class="sec contactus">
+                <h2>Contact Us</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <p><a href="tel:+12345678900">12345678900</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <p><a href="mailto:pharma@email.comee">pharma@email.comee</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <!-- footer section ends here -->
+      <div class="copyright">
+        <p>Copyright ©2025 Online Pharmacy Store. All Right Reserved.</p>
+      </div>
+</body>
+</html>

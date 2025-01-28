@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Address</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .address-container {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .address-container h1 {
+      color: #333;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .address-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .address-container input, .address-container textarea, .address-container select {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .address-container textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .address-container button {
+      background: #26a965;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 1rem;
+    }
+
+    .address-container button:hover {
+      background: #219653;
+    }
+
+    .address-container .footer {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="address-container">
+    <h1>Delivery Address</h1>
+    <form action="#" method="post">
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Street Address" required>
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="State" required>
+      <input type="text" placeholder="ZIP Code" required>
+      <input type="text" placeholder="Country" required>
+      <input type="tel" placeholder="Phone Number" required>
+  
+      <button type="submit">Submit Address</button>
+    </form>
+    <div class="footer">
+      <p>Need help? <a href="#">Contact Support</a></p>
+    </div>
+  </div>
+</body>
+</html>
